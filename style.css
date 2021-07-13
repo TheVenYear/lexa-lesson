@@ -2,21 +2,29 @@
 }
 .container{
     display: flex;
-    justify-content: space-between;
     flex-wrap: wrap;
-    align-items: stretch;
 }
-.container div{
+.container div {
     border: 1px solid #333;
-    flex-basis: 10%;
     padding: 10px;
 }
-.container div{
-    flex-basis: 23%;
-}
-.box-1, .box-2, .box-3, .box-4, .box-5{
-    background-color: red;
+.box{
     display: block;
     width: 200px;
     height: 200px;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.yellow{
+    background-color:yellow;
+}
+.green{
+    background-color: green;
+}
+.orange{
+    background-color: orange;
 }
