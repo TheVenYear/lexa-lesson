@@ -1,0 +1,17 @@
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 30px;
+    background-color: black;
+    display: inline-block;
+
+}
+.box__red{
+    height: 200px;
+    width: 200px;
+    margin: 30px;
+    background-color: red;
+    display: inline-block;
+
+
+}
