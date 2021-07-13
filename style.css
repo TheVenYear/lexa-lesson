@@ -1,36 +1,22 @@
-
-.red{
-    display: inline-block;
+@media (min-width: 400px)  {
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.container div{
+    border: 1px solid #333;
+    flex-basis: 10%;
+    padding: 10px;
+}
+.container div{
+    flex-basis: 23%;
+}
+.box-1, .box-2, .box-3, .box-4, .box-5{
     background-color: red;
-    height: 200px;
+    display: block;
     width: 200px;
-    margin: 0 auto;
-}
-.black {
-    display: inline-block;
-     background-color: black;
-     height: 200px;
-     width: 200px;
-    margin: 0 auto;
- }
-.yellow{
-    display: inline-block;
-    background-color: yellow;
     height: 200px;
-    width: 200px;
-    margin: 0 auto;
-}
-.pink{
-    display: inline-block;
-    background-color: pink;
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
-}
-.blue{
-    display: inline-block;
-    background-color: blue;
-    height: 200px;
-    width: 200px;
-    margin: 0 auto;
 }
